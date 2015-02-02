@@ -5,9 +5,28 @@
     <td><img src = "boxing-gloves-1053702.jpg"></td> 
     <td><img src = "butterfree.jpg"></td>
   </tr>
+
   <tr>
-    <td>test</td>
-    <td>table</td> 
-    <td>yes</td>
+    <td><img src = "cat.jpg"></td>
+    <td><img src = "20296-house-md-h3.jpg"></td> 
+    <td><img src = "criminalminds.jpg"></td>
+  </tr>
+
+  <tr>
+    <td><img src = "deque.jpg"></td>
+    <td><img src = "ent.jpg"></td> 
+    <td><img src = "intp.jpg"></td>
+  </tr>
+
+  <tr>
+    <td><img src = "logo-ubuntu_st_no®-black_orange-hex.png"></td>
+    <td><img src = "radixsort-example.jpg"></td> 
+    <td><img src = "shuckle.jpg"></td>
+  </tr>
+
+  <tr>
+    <td><img src = "the-office-entire-cast.jpg"></td>
+    <td><img src = "the-silence-of-the-lambs.jpg"></td> 
+    <td><img src = "universityterrace.jpg"></td>
   </tr>
 </table>
