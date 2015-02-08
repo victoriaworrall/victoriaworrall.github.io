@@ -1,0 +1,12 @@
+Want to make one of these?
+
+1) Fill in
+<EMBED 
+    SRC="Bleachers - Rollercoaster (Audio).mp3" 
+    HEIGHT=0 WIDTH=0> 
+<div id="imageslideshow1"></div> 
+with the preferred audio
+
+2) Download images (or find URLs) to place in the image array. 
+
+3) Feel free to add or remove alert boxes

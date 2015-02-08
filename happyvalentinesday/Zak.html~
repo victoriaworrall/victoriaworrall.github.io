@@ -1,5 +1,10 @@
+<!-- of course the site in the div handled the slide show -->
 <script type="text/javascript" src="http://www.linkbuildingservices4sites.com/resources/slide-show.js"></script>   
-<audio><source src="Bleachers - Rollercoaster (Audio).mp3" type="audio/mpeg" /></audio>
+<!-- MUSIC SOURCE: youtube / bleachers. Please don't arrest me for piracy :( I will remove it I swear!! -->
+<!-- embed source: https://productforums.google.com/forum/#!topic/chrome/hgxRgmT0INY -->
+<EMBED 
+    SRC="Bleachers - Rollercoaster (Audio).mp3" 
+    HEIGHT=0 WIDTH=0> 
 <div id="imageslideshow1"></div> 
 
 <script type="text/javascript">  
