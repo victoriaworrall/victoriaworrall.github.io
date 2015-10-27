@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The internal clock in JavaScript starts at midnight January 1, 1970.</p>
+<p>Click the button to display the number of milliseconds since midnight, January 1, 1970.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<p id = "demo2"></p> 
+<script>
+function myFunction() {
+    var d = new Date();
+    var n = d.getTime();
+    var converted = new Date(n);
+    //var hours = converted.getMinutes();
+	
+    document.getElementById("demo").innerHTML = converted;
+
+}
+
+
+</script>
+
+</body>
+</html>
+
