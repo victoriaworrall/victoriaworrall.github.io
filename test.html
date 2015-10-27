@@ -1,1 +1,51 @@
-<p>hello world</p>
+<html>
+
+<p> For what time would you like to calculate lunch lines? </p>
+<button onclick="currentTime()">Current Time</button>
+
+<button onclick="enterTime()">Enter a Time</button>
+</html>
+
+
+<script type="text/javascript">
+
+    function enterTime() {
+alert("time")
+   // document.write("<IMG ALIGN='center' "+
+     //               "SRC='tumblr_static_greenbox.png'> " +
+       //            "<BR><BR>"); 
+var myWindow = window.open("", "MsgWindow", "width=200, height=100");
+myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p><IMG ALIGN='center' "+
+                   "SRC='tumblr_static_greenbox.png'> " +
+                  "<BR><BR>");
+document.append("<input type='text' name='fname'><br>");
+
+    }
+    function currentTime() {
+	    var d = new Date();
+	    var n = d.getTime();
+	    var converted = new Date(n);
+	    var hours = converted.getHours();
+	    var minutes = converted.getMinutes();
+            var day = converted.getDay();
+	    calculateLunch(hours, minutes, day);
+    }
+    
+    function calculateLunch(hours, minutes, day) {
+	    if(day == 1 || day == 3) {
+                calculateMWLunch(hours, minutes);
+	    }
+	    else if(day == 2 || day == 4) {
+                calculateTRLunch(hours, minutes);
+            }
+
+    } 
+    function calculateMWLunch(hours, minutes) {
+	//put in mw times
+    }
+    function calculateTRLunch(hours, minutes) {
+
+        //put in TR times
+        alert("TR");
+    }
+</script>
